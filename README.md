@@ -1,61 +1,76 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# 🍕 UpFood API
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+[![Author](https://img.shields.io/badge/author-fernandogatto-%61624050)](https://github.com/fernandogatto/)
+[![Languages](https://img.shields.io/github/languages/count/fernandogatto/upfood-api?color=%61624050)](#)
+[![Stars](https://img.shields.io/github/stars/fernandogatto/upfood-api?color=%61624050)](https://github.com/fernandogatto/upfood-api/stargazers)
+[![Forks](https://img.shields.io/github/forks/fernandogatto/upfood-api?color=%61624050)](https://github.com/fernandogatto/upfood-api/network/members)
+[![Contributors](https://img.shields.io/github/contributors/fernandogatto/upfood-api?color=%61624050)](https://github.com/fernandogatto/upfood-api/graphs/contributors)
+[![License](https://img.shields.io/badge/license-MIT-%61624050)](https://choosealicense.com/licenses/mit/)
 
-## About Laravel
+> A simple food API based on Laravel Tips playlist from UpInside, a channel from YouTube.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🔗 Table of contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Starting](#starting)
+- [Contribute](#contribute)
+- [License](#license)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📚 Features <a name="features"/>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- CRUD Foods
+-- title, price, category, description
 
-## Learning Laravel
+## 📌 Technologies <a name="technologies"/>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- [Laravel](https://laravel.com/)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📂 Installation <a name="installation"/>
 
-## Laravel Sponsors
+First of all, it is important that you have installed [XAMPP](https://www.apachefriends.org/download.html), in specific MySQL and Apache. After this, you have to install [Composer](https://getcomposer.org/download/) at latest version.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+So, you have to go at folder ```xampp/htdocs``` and run this command in terminal to clone the project via HTTPS:
 
-### Premium Partners
+```bash
+git clone https://github.com/fernandogatto/upfood-api.git
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-## Contributing
+```bash
+git@github.com:fernandogatto/upfood-api.git
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Configure DB**
 
-## Code of Conduct
+In file ```.env``` configure your database connection.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Install dependencies**
 
-## Security Vulnerabilities
+```bash
+# To install the DB
+php artisan migrate
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🚀 Starting <a name="starting"/>
 
-## License
+Run the following command in order in terminal:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+# To start the server
+php artisan serve
+```
+
+## 👍 Contribute <a name="contribute"/>
+
+- Fork this repository.
+- Create a branch with your resource: ```git checkout -b my-feature```
+- Submit changes: ```git commit -m "feat: My new feature"```
+- Push your branch: ```git push origin my-feature```
+
+## 📕 License <a name="license"/>
+
+Released in 2020. This project is under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+Build with 💜 by [Fernando Gatto](https://github.com/fernandogatto/).
