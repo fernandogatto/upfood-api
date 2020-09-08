@@ -27,7 +27,7 @@
 
 ## 📂 Installation <a name="installation"/>
 
-First of all, it is important that you have installed [XAMPP](https://www.apachefriends.org/download.html), in specific MySQL and Apache. After this, you have to install [Composer](https://getcomposer.org/download/) at latest version.
+First of all, it is important that you have installed [Xampp](https://www.apachefriends.org/download.html), in specific MySQL and Apache. After this, you have to install [Composer](https://getcomposer.org/download/) at latest version.
 
 So, you have to go at folder ```xampp/htdocs``` and run this command in terminal to clone the project via HTTPS:
 
@@ -60,6 +60,8 @@ Run the following command in order in terminal:
 # To start the server
 php artisan serve
 ```
+
+And start MySQL and Apache in your Xampp.
 
 ## 👍 Contribute <a name="contribute"/>
 
