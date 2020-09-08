@@ -19,8 +19,7 @@
 
 ## 📚 Features <a name="features"/>
 
-- CRUD Foods
--- title, price, category, description
+- CRUD Foods: title, price, category, description
 
 ## 📌 Technologies <a name="technologies"/>
 
